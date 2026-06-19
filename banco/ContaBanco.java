@@ -80,7 +80,7 @@ public class ContaBanco {
     public void depositar(float deposito) {
         if (this.getStatus()) {
             this.setSaldo(getSaldo() + deposito);
-            System.out.println("Repósito realizado na conta de: " + this.getDono());
+            System.out.println("Depósito realizado na conta de: " + this.getDono());
         } else {
             System.out.println("Impossível depositar em uma conta fechada!");
         }
